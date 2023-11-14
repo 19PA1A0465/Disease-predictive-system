@@ -134,7 +134,19 @@ if (selected == 'Heart Disease Prediction'):
         
     with col1:
         thal = st.text_input('thal: 0 = normal; 1 = fixed defect; 2 = reversable defect')
-        
+    age = float(age) if age else 0.0
+    sex = float(sex) if sex else 0.0
+    cp = float(cp) if cp else 0.0
+    trestbps = float(trestbps) if trestbps else 0.0
+    chol = float(chol) if chol else 0.0
+    fbs = float(fbs) if fbs else 0.0
+    restecg = float(restecg) if restecg else 0.0
+    thalach = float(thalach) if thalach else 0.0
+    exang = float(exang) if exang else 0.0
+    oldpeak = float(oldpeak) if oldpeak else 0.0
+    slope = float(slope) if slope else 0.0
+    ca = float(ca) if ca else 0.0
+    thal = float(thal) if thal else 0.0    
         
      
      
